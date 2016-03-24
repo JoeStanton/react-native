@@ -6,7 +6,7 @@ var utils = require('./generator-utils');
 
 function showHelp() {
   console.log([
-    'Usage: react-native new-library <LibraryName>',
+    'Usage: react-native new-library --name <LibraryName>',
     ''
   ].join('\n'));
   process.exit(1);
